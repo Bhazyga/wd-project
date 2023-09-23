@@ -16,16 +16,14 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/utama', function () {
+ Route::get('/utama', function () {
     return view('welcome');
 });
 
-Route::get('/baji', function () {
+Route::get('/  ', function () {
     return view('home' , [
+        "navlink" => "home"
 
-        "nama" => "Bhazy Jagow",
-        "email" => "bhazyweedre@wd.com",
-        "image" => "WD.jpg"
 
 
     ]);
@@ -42,16 +40,29 @@ Route::get('/innertest', function () {
 
 Route::get('/bajijago', function () {
     return view('about' , [
+        "navlink" => "about",
 
-        "nama" => "Bhazy Jagow",
-        "email" => "bhazyweedre@wd.com",
-        "image" => "WD.jpg"
+        "nama" => "Dwiki Amirulloh",
+        "email" => "Project Manajer",
+        "image" => "WD.jpg",
 
+        "nama1" => "Bazhy",
+        "email1" => "Asisten Manajer",
+        "image1" => "WD.jpg",
+
+        "nama2" => "Haycal",
+        "email2" => "Gatau Manajer",
+        "image2" => "WD.jpg",
+
+        "nama3" => "Habibi",
+        "email3" => "Apa iya Manajer",
+        "image3" => "WD.jpg",
 
     ]);
 });
 
 Route::get('/bajibar', function () {
+
     return view('bar');
 });
 
@@ -72,14 +83,11 @@ $blog_posts = [
  ],
     ];
     return view('blog' , [
+        "navlink" => "blog",
 
         "judul" => "Blog",
         "blog" => $blog_posts,
         "image" => "WD.jpg"
-
-
-
-
 
     ]);
 });
