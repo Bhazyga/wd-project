@@ -44,19 +44,19 @@ Route::get('/bajijago', function () {
 
         "nama" => "Dwiki Amirulloh",
         "email" => "Project Manajer",
-        "image" => "WD.jpg",
+        "image" => "wiki.png",
 
-        "nama1" => "Bazhy",
+        "nama1" => "tulis sendiri aja namanya",
         "email1" => "Asisten Manajer",
-        "image1" => "WD.jpg",
+        "image1" => "wiki.png",
 
-        "nama2" => "Haycal",
-        "email2" => "Gatau Manajer",
-        "image2" => "WD.jpg",
+        "nama2" => "Haycal Rayhansyah",
+        "email2" => "Orang Biasa",
+        "image2" => "haycal.png",
 
-        "nama3" => "Habibi",
-        "email3" => "Apa iya Manajer",
-        "image3" => "WD.jpg",
+        "nama3" => "Habibi Rahman",
+        "email3" => "Wakil Manajer",
+        "image3" => "habibi.jpg",
 
     ]);
 });
