@@ -13,7 +13,8 @@
 
 
 @section('container')
-    <h1>Halaman Home</h1>
+<br>
+    <h1>Halaman Utama</h1>
     <script>
         $(document).ready(function() {
         $('.carousel').carousel({
@@ -35,8 +36,29 @@
         }
 
         });
+        $(document).ready(function() {
+        $('.carousel').carousel1({
+          interval: 2500
+        });
+
+        });
+        $(document).ready(function() {
+
+        if(window.location.href.indexOf('#modal-fullscreen') != -1) {
+          $('#modal-fullscreen').modal('show');
+        }
+
+        });
+        $(document).ready(function() {
+
+        if(window.location.href.indexOf('#info') != -1) {
+          $('#info').modal('show');
+        }
+
+        });
         </script>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 50%;height: 50%; position:relative; top:35;left:600">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -44,13 +66,25 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="img/gambar2.jpg"  alt="First slide ">
+            <img class="d-block w-100" src="img/logo.png" width="100%" height="100%" alt="First slide ">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/gambar2.jpg"  alt="Second slide ">
+            <img class="d-block w-100" src="img/gambar2.jpg" width="50%" height="100%" alt="Second slide ">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/gambar2.jpg"  alt="Third slide ">
+            <img class="d-block w-100" src="img/distortimage.png" width="50%" height="100%" alt="Third slide ">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -63,18 +97,82 @@
         </a>
       </div>
 
+      <div id="myCarousel1" class="carousel slide" data-ride="carousel" style="width: 50%;height: 50%;position: relative;top:-335;right:0" >
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel1" data-slide-to="1"></li>
+          <li data-target="#myCarousel1" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/distortimage.png" width="100%" height="100%" alt="First slide ">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/logo.png" width="50%" height="100%" alt="Second slide ">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/gambar2.jpg" width="50%" height="100%" alt="Third slide ">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel1" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel1" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
 
       <br>
+      <br>
+      <br>
+      <h1 style="position: relative; left:450">Pengumuman</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1><h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1><h1>test</h1>
 
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+
     @endsection
 

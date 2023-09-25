@@ -45,15 +45,7 @@
         <li class="nav-item">
           <a class="nav-link " href="/bajiblog">Visi Dan Misi</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link " href="/bajibar">Support</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="/line-chart">Gatau dah</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link"  href="/login">Login</a>
-        </li>
+
 
       </ul>
     </div>

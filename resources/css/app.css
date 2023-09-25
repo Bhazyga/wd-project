@@ -1,5 +1,11 @@
 /* Remove rounded corners from carousel images */
-.carousel-inner img {
-    border-radius: 0; /* Set border-radius to 0 for sharp corners */
+.myCarousel{
+    position: absolute;
 }
-
+.carousel-inner img {
+    border-radius: 0;
+ /* Set border-radius to 0 for sharp corners */
+}
+.carousel-inner .carousel-item {
+   padding: 10px;
+}

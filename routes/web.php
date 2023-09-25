@@ -48,7 +48,7 @@ Route::get('/bajijago', function () {
 
         "nama1" => "tulis sendiri aja namanya",
         "email1" => "Asisten Manajer",
-        "image1" => "wiki.png",
+        "image1" => "baji.png",
 
         "nama2" => "Haycal Rayhansyah",
         "email2" => "Orang Biasa",
@@ -70,16 +70,16 @@ Route::get('/bajiblog', function () {
 
 $blog_posts = [
     [
-        "title" => "Judul Post Pertama",
-        "author" => "Bajijago",
+        "title" => "Visi",
+        "author" => "WD CODING",
         "body"  => "
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, exercitationem. Animi minima dolores fugiat incidunt sunt a nobis quod minus."
+        Minimal bikin orang ga goblok"
     ],
  [
-    "title" => "Judul Post kedua",
-    "author" => "bajibaji",
+    "title" => "Misi",
+    "author" => "WD CODING",
     "body"  => "
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam corrupti aut aliquid at animi, repellat nulla ut cumque placeat soluta vitae ab quod facilis totam voluptatum omnis voluptatem nostrum. Voluptas ducimus non vel quaerat, iusto accusamus, iste eos illo unde iure, repudiandae ab! Vero asperiores porro, dolores aliquam minima, eligendi unde non commodi iste amet dolorum aperiam. Sed corrupti similique vero pariatur aut repellat ipsam laboriosam suscipit, voluptates officia modi sunt nam fugit quaerat itaque quam ab! Officia id assumenda error unde, dicta sunt eum voluptatibus excepturi perspiciatis consequuntur aspernatur autem commodi voluptatum, quae deleniti praesentium veritatis dignissimos temporibus natus."
+    Mencari uang sebanyak banyaknya"
  ],
     ];
     return view('blog' , [
