@@ -1,4 +1,4 @@
-Jadi disini kita pake laravel maifren 
+Jadi disini kita pake laravel 8 maifren 
 
 buat apaan kek gitu pelajar pelajarin biar rada produktip 
 
