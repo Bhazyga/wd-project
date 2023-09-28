@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 </style>
   <body ">
 
-  <nav class="navbar navbar-expand-lg navbar-dark ">
+<nav class="navbar navbar-expand-lg navbar-dark ">
   <div class="container">
     <a class="navbar-brand" href="/"> <img src="img/wd.jpg" alt="hah??" width="50" height="50" class="rounded-circle" ></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,23 +44,30 @@
         </li>
         <li class="nav-item">
           <a class="nav-link " href="/bajiblog">Visi Dan Misi</a>
+        <li class="nav-item">
+            <a class="nav-link {{ ($navlink === "login") ? 'active' : '' }}" href="/login">Login</a>
         </li>
-
-
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 
-    <div class="container mt-4">
+<div class="container">
+    @yield('container')
+</div>
 
-   @yield('container')
-
-
+<footer class="bg-light text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <!-- Copyright -->
+  </footer>
 
   </body>
+
+
 </html>
+

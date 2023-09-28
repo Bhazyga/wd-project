@@ -1,9 +1,11 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-
-use App\Http\Controllers\ChartController;
 use Inertia\Inertia;
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ChartController;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,14 +21,16 @@ use Inertia\Inertia;
  Route::get('/utama', function () {
     return view('welcome');
 });
+route::get('/home',[HomeController::class,' '])->name('home');
+route::get('/login',[LoginController::class,'halamanlogin'])->name('login');
+route::post('/postlogin',[LoginController::class,'postlogin'])->name('postlogin');
+
+
 
 Route::get('/  ', function () {
     return view('home' , [
         "navlink" => "home"
-
-
-
-    ]);
+        ]);
 });
 
 
@@ -95,8 +99,9 @@ $blog_posts = [
 
 route::get('/login',function (){
 return view ('login',[
+    "navlink" => "login"
 
-    "image" => "WD.jpg"
+
 
 ]);
 });
@@ -111,3 +116,4 @@ route::get('/bajikalender',function (){
 
 
 Route::get('/line-chart',[ChartController::class,'linechart']);
+
