@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\login;
+
+
 use App\Http\Controllers\ChartController;
 use Inertia\Inertia;
 
@@ -15,6 +19,20 @@ use Inertia\Inertia;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+
+Route::get('user', [login::class,'getdata']);
+
+
+
+
+
+
 
  Route::get('/utama', function () {
     return view('welcome');
@@ -42,12 +60,12 @@ Route::get('/bajijago', function () {
     return view('about' , [
         "navlink" => "about",
 
-        "nama" => "Dwiki Amirulloh",
+        "nama" => "Dwiki Stark",
         "email" => "Project Manajer",
         "image" => "wiki.png",
 
-        "nama1" => "tulis sendiri aja namanya",
-        "email1" => "Asisten Manajer",
+        "nama1" => "Baji jago",
+        "email1" => "Petani digital",
         "image1" => "baji.png",
 
         "nama2" => "Haycal Rayhansyah",
@@ -93,16 +111,9 @@ $blog_posts = [
 });
 
 
-route::get('/login',function (){
-return view ('login',[
 
-    "image" => "WD.jpg"
-
-]);
-});
-
-route::get('/bajikalender',function (){
-    return view ('callendar',[
+route::get('/calendar',function (){
+    return view ('calendar',[
 
         "image" => "WD.jpg"
 
