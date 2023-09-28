@@ -68,22 +68,22 @@
           <div class="carousel-item active">
             <img class="d-block w-100" src="img/logo.png" width="100%" height="100%" alt="First slide ">
             <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5>Tahu Bulat</h5>
+                <p>DADAKAN , WAKWAW</p>
               </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="img/gambar2.jpg" width="50%" height="100%" alt="Second slide ">
             <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5>Lorem, ipsum.</h5>
+                <p>Lorem ipsum dolor sit amet..</p>
               </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="img/distortimage.png" width="50%" height="100%" alt="Third slide ">
             <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5>Lorem, ipsum dolor.</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
               </div>
           </div>
         </div>
