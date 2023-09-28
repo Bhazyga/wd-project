@@ -18,7 +18,7 @@
     <script>
         $(document).ready(function() {
         $('.carousel').carousel({
-          interval: 3000
+          interval: 2500
         });
 
         });
@@ -38,7 +38,7 @@
         });
         $(document).ready(function() {
         $('.carousel').carousel1({
-          interval: 2500
+          interval: 3000
         });
 
         });
@@ -57,8 +57,11 @@
 
         });
         </script>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 50%;height: 50%; position:relative; top:35;left:600">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -68,19 +71,19 @@
           <div class="carousel-item active">
             <img class="d-block w-100" src="img/logo.png" width="100%" height="100%" alt="First slide ">
             <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5 style="color: black">First slide label</h5>
+                <p style="color:black">Some representative placeholder content for the first slide.</p>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/gambar2.jpg" width="50%" height="100%" alt="Second slide ">
+            <img class="d-block w-100" src="img/gambar2.jpg" width="100%" height="100%" alt="Second slide ">
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/distortimage.png" width="50%" height="100%" alt="Third slide ">
+            <img class="d-block w-100" src="img/distortimage.png" width="100%" height="100%" alt="Third slide ">
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
@@ -96,8 +99,13 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+        </div>
 
-      <div id="myCarousel1" class="carousel slide" data-ride="carousel" style="width: 50%;height: 50%;position: relative;top:-335;right:0" >
+
+      <div class="col-lg-6">
+      <div id="myCarousel1" class="carousel slide" data-ride="carousel"  >
+
+
         <ol class="carousel-indicators">
           <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel1" data-slide-to="1"></li>
@@ -112,14 +120,14 @@
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/logo.png" width="50%" height="100%" alt="Second slide ">
+            <img class="d-block w-100" src="img/logo.png" width="100%" height="100%" alt="Second slide ">
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="img/gambar2.jpg" width="50%" height="100%" alt="Third slide ">
+            <img class="d-block w-100" src="img/gambar2.jpg" width="100%" height="100%" alt="Third slide ">
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
@@ -134,11 +142,15 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+      </div>
+     </div>
+    </div>
+</div>
 
       <br>
       <br>
       <br>
-      <h1 style="position: relative; left:450">Pengumuman</h1>
+      <h1 style="text-align: center;">Pengumuman</h1>
       <h1>test</h1>
       <h1>test</h1>
       <h1>test</h1>
